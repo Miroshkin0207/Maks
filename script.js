@@ -6,6 +6,9 @@
     if (yes.checked) {
         text.innerHTML="Умничка, всё верно!"
     }
+     else {
+         text.innerHTML=""
+     }
 }
 function no() {
     let text = document.querySelector("#text")
@@ -15,4 +18,7 @@ function no() {
     if (no.checked) {
         text.innerHTML="Жди докс"
     }
-}
+    else {
+        text.innerHTML=""
+    }
+    }
