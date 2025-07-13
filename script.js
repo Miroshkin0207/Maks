@@ -4,7 +4,10 @@
     let no = document.querySelector("#no")
     no.checked = false
     if (yes.checked) {
-        text.innerHTML="Умничка, всё верно!"
+        text.innerHTML = "Умничка, всё верно!"
+    }
+    else {
+        text.innerHTMl=""
     }
 }
 function no() {
@@ -14,5 +17,8 @@ function no() {
     yes.checked = false
     if (no.checked) {
         text.innerHTML="Жди докс"
+    }
+    else {
+        text.innerHTMl = ""
     }
 }
