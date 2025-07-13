@@ -1,10 +1,23 @@
-body {
-  margin: 0;
-  padding: 0;
-  background-image: url("background.jpg");
-  background-size: cover;
-  background-position: center
+﻿body {
+    background-color: rgb(21, 21, 26);
+    color: rgb(255, 255, 255)
 }
 h1 {
-  text-align: center
+    text-align: center;
+    font-size: 50px
+}
+p {
+    font-size: 40px
+}
+input {
+    width: 30px;
+    height: 30px
+}
+.label {
+    display: inline-block;
+    font-size: 30px
+}
+
+#yes {
+    margin-right: 45px
 }

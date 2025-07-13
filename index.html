@@ -1,14 +1,19 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="ru">
-  <head>
+<head>
     <title>Макс говно</title>
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+</head>
+<body>
     <h1>Макс говно</h1>
     <p>Макс говно?</p>
-    <input type="checkbox" label="Да" id="yes">
-    <input type="checkbox" label="Нет" id="no">
-    <p id="text"></p>
-  </body>
+    <div class="opros">
+        <p class="label">Да</p>
+        <input type="checkbox" id="yes" onchange="yes()">
+        <p class="label">Нет</p>
+        <input type="checkbox" id="no" onchange="no()">
+        <p id="text"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
 </html>
