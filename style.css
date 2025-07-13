@@ -22,7 +22,7 @@ h1 {
     .label {
         font-size: 30px
     }
-    .input {
+    input {
         width: 30px;
         height: 30px
     }
@@ -38,7 +38,7 @@ h1 {
     .label {
         font-size: 45px
     }
-    .input {
+    input {
         width: 45px;
         height: 45px
     }
