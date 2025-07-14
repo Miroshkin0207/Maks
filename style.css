@@ -1,13 +1,14 @@
 ﻿body {
-    color: darkblue;
+    color: black;
     background-color: rgb(187, 4, 8)
 }
 h1 {
     text-align: center
 }
-#picture {
-    display: grid;
-    place-items: center
+.picture {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
 }
 .label {
     display: inline-block
