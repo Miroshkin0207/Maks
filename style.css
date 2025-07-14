@@ -1,14 +1,17 @@
 ﻿body {
-    background-color: rgb(21, 21, 26);
-    color: rgb(255, 255, 255)
+    color: darkblue;
+    background-color: rgb(187, 4, 8)
 }
 h1 {
     text-align: center
 }
+#picture {
+    display: grid;
+    place-items: center
+}
 .label {
     display: inline-block
 }
-
 #yes {
     margin-right: 45px
 }

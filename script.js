@@ -1,24 +1,24 @@
 ﻿function yes() {
-    let text = document.querySelector("#text")
     let yes = document.querySelector("#yes")
     let no = document.querySelector("#no")
-    no.checked = false
+    let text = document.querySelector("#text")
     if (yes.checked) {
-        text.innerHTML="Умничка, всё верно!"
+        no.checked = false
+        text.innerHTML = "Умничка, всё верно!"
     }
     else {
-        text.innerHTML=""
+        text.innerHTML = ""
     }
 }
 function no() {
-    let text = document.querySelector("#text")
     let yes = document.querySelector("#yes")
     let no = document.querySelector("#no")
-    yes.checked = false
+    let text = document.querySelector("#text")
     if (no.checked) {
-        text.innerHTML="Жди докс"
+        yes.checked = false
+        text.innerHTML = "Жди докс"
     }
     else {
-        text.innerHTML=""
+        text.innerHTML = ""
     }
 }
