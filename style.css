@@ -8,7 +8,8 @@ h1 {
 .picture {
     position: absolute;
     left: 50%;
-    transform: translateX(-50%)
+    transform: translateX(-50%);
+    top: 100px
 }
 #bg {
     z-index: -1
