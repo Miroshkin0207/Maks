@@ -9,9 +9,7 @@ h1 {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%)
-}
-#bg {
+    transform: translate(-50%, -50%);
     z-index: -1
 }
 .label {
@@ -23,6 +21,10 @@ h1 {
 @media (min-width: 1200px) {
     h1 {
         font-size: 50px
+    }
+    #bg {
+        width: 400px;
+        height: 485px
     }
     p {
         font-size: 40px
