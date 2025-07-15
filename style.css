@@ -12,11 +12,6 @@ h1 {
     transform: translate(-50%, -50%);
     z-index: -1
 }
-#davi {
-    position: absolute;
-    right: 0;
-    top: 100px
-}
 .label {
     display: inline-block
 }
@@ -33,7 +28,10 @@ h1 {
     }
     #davi {
         width: 275px;
-        height: 350px
+        height: 350px;
+        position: absolute;
+        right: 0;
+        top: 100px
     }
     p {
         font-size: 40px
@@ -57,7 +55,11 @@ h1 {
     }
     #davi {
         width: 175px;
-        height: 345px
+        height: 345px;
+        position: absolute;
+        top: 700px;
+        left: 0
+    }
     p {
         font-size: 60px
     }
