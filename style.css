@@ -13,6 +13,8 @@ h1 {
     z-index: -1
 }
 #davi {
+    width: 275px;
+    height: 350px;
     position: absolute;
     right: 0;
     top: 100px
