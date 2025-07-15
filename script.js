@@ -23,6 +23,5 @@ function no() {
     }
 }
 function game() {
-    console.log("t")
-    //window.location.href = "miroshkin0207.github.io/otziv"
+    window.location.href = "miroshkin0207.github.io/otziv"
 }
