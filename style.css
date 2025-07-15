@@ -54,10 +54,10 @@ h1 {
         height: 375px
     }
     #davi {
-        width: 175px;
-        height: 345px;
+        width: 295px;
+        height: 375px;
         position: absolute;
-        top: 700px;
+        bottom: 0;
         left: 0
     }
     p {
