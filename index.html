@@ -1,12 +1,24 @@
 ﻿<!doctype html>
 <html lang="ru">
 <head>
-    <title>Мини-игра "Отзыв"</title>
+    <title>Макс говно</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Мини-игра "Отзыв"</h1>
-    <button id="back" onclick="back()">Главная</button>
+    <h1>Макс говно</h1>
+    <p>Макс говно?</p>
+    <div class="picture">
+        <img id="bg" src="background.png">
+    </div>
+    <div class="opros">
+        <p class="label">Да</p>
+        <input type="checkbox" id="yes" oninput="yes()">
+        <p class="label">Нет</p>
+        <input type="checkbox" id="no" oninput="no()">
+        <p id="text"></p>
+    </div>
+    <button onclick="minigame()">Мини-игра "Отзыв"</button>
+    <img id="davi" src="davi.png">
     <script src="script.js"></script>
 </body>
 </html>
